@@ -1,12 +1,70 @@
-# React + Vite
+📝 To-Do List Tracker
+A clean and responsive To-Do List web application built with React and styled using modern CSS techniques. This application allows users to manage tasks effectively with intuitive controls for adding, reordering, and deleting tasks.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Features
+Add Tasks: Quickly input and track new tasks.
 
-Currently, two official plugins are available:
+Reorder Tasks: Change priority using up/down arrows.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Delete Tasks: Remove completed or unwanted tasks.
 
-## Expanding the ESLint configuration
+Clean UI: Built with a glassmorphism design aesthetic.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Responsive Design: Works across desktop and mobile screens.
+
+React Hooks: Uses useState and useEffect for state and side-effect management.
+
+
+🛠️ Tech Stack
+React — Functional Components & Hooks
+
+Vite — Lightning-fast frontend tooling
+
+React Icons — For intuitive UI icons
+
+CSS3 — Flexbox layout, gradients, glassmorphism
+
+📦 Installation & Setup
+Prerequisites
+
+Node.js >= 14.x
+
+npm >= 6.x (or yarn)
+
+Steps
+
+Clone the repository
+git clone https://github.com/your-username/todo-list-tracker.git && cd todo-list-tracker
+
+Install dependencies
+npm install
+
+Start the development server
+npm run dev
+
+Build for production
+npm run build
+
+🧱 Project Structure
+
+todo-list-tracker/
+├── public/
+├── src/
+│   ├── App.jsx
+│   ├── ToDoList.jsx
+│   ├── index.css
+│   └── main.jsx
+├── index.html
+├── package.json
+└── vite.config.js
+
+✍️ Author
+Sudarshan O
+GitHub: https://github.com/SudoShan
+LinkedIn: www.linkedin.com/in/sudarshan-olirvel
+
+📄 License
+This project is licensed under the MIT License.
+Feel free to use, modify, and distribute it for personal or commercial use.
+
+⭐ If you found this project helpful, consider starring it and sharing feedback or improvements!
